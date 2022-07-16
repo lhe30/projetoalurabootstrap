@@ -6,3 +6,24 @@
     padding-left: 2rem;
     padding-right: 2rem;
 }
+
+@media screen and (min-widht: 0) {
+    .cabecalho {
+        justify-content: center;
+        padding: 0 1rem;
+    }
+    .logo {
+        display: none;
+    }    
+}
+
+@media screen and (min-widht: 768px) {
+    .cabecalho {
+        padding: 0 5rem;
+        justify-content: s;
+    }
+
+    .logo {
+        display: block;
+    }
+}
